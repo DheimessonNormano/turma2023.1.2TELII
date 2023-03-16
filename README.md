@@ -1,3 +1,15 @@
-# Turma2023.1.2TELII
-Repositório da Turma 2023.1.2TELII Vespertino - Curso Técnico em Eletrônica do IFRR. Componente Curricular Linguagem de Programação.
-### Professor Dalmo Silva Mendes
+programa {
+  funcao inicio() 
+  {
+    inteiro num
+
+    escreva("Digite um numero inteiro: ")
+    leia(num)
+
+    se(num % 2 == 1){
+      escreva("Impar...\n")
+    }
+    senao{
+      escreva("Par...\n")
+  }
+}
