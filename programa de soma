@@ -1,0 +1,17 @@
+programa
+
+     { inteiro n1, n2, resultado
+  funcao inicio() 
+  {
+    limpa()
+    escreva("seja bem-vindo ao aplicativo!\n")
+    escreva("digite o primeiro número: ")
+    leia(n1) // variavel que armazena o primeiro número
+    escreva("digite o segundo número: ")
+    leia(n2) // variavel que armazena o segundo número
+    resultado = (n1+n2) // operação de soma
+    escreva("O resultado da soma de ", n1,
+    " + ", n2, "é: " , resultado)
+
+  }
+}
