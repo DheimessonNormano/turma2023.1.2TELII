@@ -7,7 +7,7 @@ programa
 	       para(inteiro numero = 0; numero < 10; numero++)   
 	       {
 	           total = numero++
-	           escreva ("Número: ",total, "\n")
+	           escreva ("NÃºmero: ",total, "\n")
 	       }
 	       escreva ("\nTotal: ", total)
 	}
